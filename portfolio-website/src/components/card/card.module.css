@@ -1,3 +1,16 @@
-.card {
+.col {
     background-color: hotpink;
+    width: 32%;
 }
+
+
+.cardsContainer {
+	background-color: deepskyblue;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-around;
+  }
+  
