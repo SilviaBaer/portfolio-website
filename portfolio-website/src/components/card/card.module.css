@@ -27,4 +27,16 @@
 	align-content: space-around;
 	margin: 5% 10% 5% 10%;
   }
+
+  .what {
+	margin-bottom: 10%;
+  }
+
+  .try  {
+	  background-color: hotpink;
+	  padding: 5% 5%;
+	  border-radius: 10%;
+	  width: 100%;
+	  
+  }
   
