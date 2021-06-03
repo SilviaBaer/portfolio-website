@@ -1,0 +1,13 @@
+.pro {
+    color: green;
+
+}
+
+.span {
+    background-image: linear-gradient(
+        to right,
+        #ff5100 0%,
+        #ff008c 51%,
+        #6a0b77 100%
+      );;
+}
