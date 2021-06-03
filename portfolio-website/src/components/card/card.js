@@ -11,8 +11,8 @@ function Card() {
             <div className={styles.caption}>
             <h3 className={styles.title}>Hi!!</h3>
             <p className={styles.what}>Lorem Ipsum lorem</p>
+            <a className={styles.try} href="/">Try it!</a>
             </div>
-            
         </div>
     )
 }
