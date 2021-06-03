@@ -1,0 +1,9 @@
+.name {
+    color: #a09897;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+}
+
+  
