@@ -1,16 +1,30 @@
-.col {
-    background-color: hotpink;
-    width: 32%;
+.card {
+    width: 29%;
+	margin: 2%;
 }
 
+.img {
+	border-top-left-radius: 20%;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+.caption {
+	background-color: lemonchiffon;
+	padding: 10% 0.5% 10% 0.5%;
+	margin-top: -5%;
+	text-align: center;
+	color: black;
+}
 
 .cardsContainer {
-	background-color: deepskyblue;
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: stretch;
 	align-content: space-around;
+	margin: 5% 10% 5% 10%;
   }
   
