@@ -5,6 +5,7 @@
 }
 
 .span {
+    color: black;
     background-image: linear-gradient(
         to right,
         #ff5100 0%,
