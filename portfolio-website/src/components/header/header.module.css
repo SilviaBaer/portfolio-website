@@ -1,5 +1,5 @@
 .header {
-    background-color: deeppink;
+    background-color: #5f0b76;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -17,7 +17,7 @@ a {
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: #4f0761;
+  color: #d606d9;
   padding-bottom: 0.25rem;
-  border-bottom: 4px solid #4f0761;
+  border-bottom: 4px solid #d606d9;
 }
