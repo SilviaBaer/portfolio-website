@@ -6,6 +6,7 @@ import Header from "./components/header/header"
 import Footer from "./components/footer/footer"
 import About from "./pages/about"
 import Projects from "./pages/projects"
+import Project from "./pages/project"
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         <Projects/>
       </Route>
       <Route path="/project/:id">
-        <Projects/>
+        <Project/>
       </Route>
       <Name/>
     <Pro/>
