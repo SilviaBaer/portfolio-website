@@ -19,7 +19,7 @@ function App() {
       <Route path="/projects">
         <Projects/>
       </Route>
-      <Route path="/project">
+      <Route path="/project/:id">
         <Projects/>
       </Route>
       <Name/>
