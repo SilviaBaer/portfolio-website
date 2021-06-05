@@ -1,9 +1,8 @@
 import { Route } from "react-router-dom";
 import styles from './App.css';
-import Name from "./components/name/name"
-import Pro from "./components/pro/pro"
 import Header from "./components/header/header"
 import Footer from "./components/footer/footer"
+import Welcome from "./pages/welcome"
 import About from "./pages/about"
 import Projects from "./pages/projects"
 import Project from "./pages/project"
@@ -20,11 +19,12 @@ function App() {
       <Route path="/projects">
         <Projects/>
       </Route>
+      <Route path="/welcome">
+        <Welcome/>
+      </Route>
       <Route path="/project/:id">
         <Project/>
       </Route>
-      <Name/>
-    <Pro/>
     </main>
     <Footer/>
     </div>
