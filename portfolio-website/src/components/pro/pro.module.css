@@ -1,10 +1,11 @@
 .pro {
-    padding: 0 5% 100% 5%;
+    padding: 0 5% 25% 5%;
     color: green;
 
 }
 
 .span {
+    color: black;
     background-image: linear-gradient(
         to right,
         #ff5100 0%,

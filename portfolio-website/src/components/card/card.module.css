@@ -1,3 +1,42 @@
 .card {
-    background-color: hotpink;
+    width: 29%;
+	margin: 2%;
 }
+
+.img {
+	border-top-left-radius: 20%;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+.caption {
+	background-color: lemonchiffon;
+	padding: 10% 0.5% 10% 0.5%;
+	margin-top: -5%;
+	text-align: center;
+	color: black;
+}
+
+.cardsContainer {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-around;
+	margin: 5% 10% 5% 10%;
+  }
+
+  .what {
+	margin-bottom: 10%;
+  }
+
+  .try  {
+	  background-color: hotpink;
+	  padding: 5% 5%;
+	  border-radius: 10%;
+	  width: 100%;
+	  
+  }
+  
