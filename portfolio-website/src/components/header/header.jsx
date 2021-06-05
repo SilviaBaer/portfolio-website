@@ -1,12 +1,13 @@
 import styles from "../header/header.module.css"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
+import classes from "../header/header.module.css"
 
 function Header() {
     return (
         <div className={styles.header}>
-<h3><Link to="/about">About</Link></h3>
-<h3><Link to="/projects">Projects</Link></h3>
-<h3><Link to="/">Home</Link></h3>
+<h3><NavLink activeClassName={styles.active} to="/about">About</NavLink></h3>
+<h3><NavLink activeClassName={styles.active} to="/projects">Projects</NavLink></h3>
+<h3><NavLink activeClassName={styles.active} to="/">Home</NavLink></h3>
 
         </div>
         
