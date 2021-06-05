@@ -1,3 +1,4 @@
+import {Route } from "react-router-dom";
 import styles from './App.css';
 import Name from "./components/name/name"
 import Pro from "./components/pro/pro"
@@ -20,3 +21,7 @@ function App() {
 }
 
 export default App;
+
+//conditionally rendering components with react router
+//{ Route } is a component that allows us to define a certain path and then the react component which will be loaded when the path becomes active in the
+//<Route path="/projects"><Route/>
