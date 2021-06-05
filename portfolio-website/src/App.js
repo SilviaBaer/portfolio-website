@@ -19,6 +19,9 @@ function App() {
       <Route path="/projects">
         <Projects/>
       </Route>
+      <Route path="/project">
+        <Projects/>
+      </Route>
       <Name/>
     <Pro/>
     </main>
