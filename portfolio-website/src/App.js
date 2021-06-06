@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import styles from './App.css';
 import Header from "./components/header/header"
 import Footer from "./components/footer/footer"
@@ -13,6 +13,7 @@ function App() {
     <div className="App">
     <Header/>
     <main>
+      <Switch>
       <Route path="/about">
         <About/>
       </Route>
@@ -22,9 +23,10 @@ function App() {
       <Route path="/welcome">
         <Welcome/>
       </Route>
-      <Route path="/project/:id">
+      <Route path="/projects/:id">
         <Project/>
       </Route>
+      </Switch>
     </main>
     <Footer/>
     </div>
@@ -36,3 +38,5 @@ export default App;
 //conditionally rendering components with react router
 //{ Route } is a component that allows us to define a certain path and then the react component which will be loaded when the path becomes active in the
 //<Route path="/projects"><Route/>
+
+//
