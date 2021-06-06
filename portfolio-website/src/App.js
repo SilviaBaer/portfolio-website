@@ -17,14 +17,14 @@ function App() {
       <Route path="/about">
         <About/>
       </Route>
+      <Route path="/projects/:id">
+        <Project/>
+      </Route>
       <Route path="/projects">
         <Projects/>
       </Route>
       <Route path="/welcome">
         <Welcome/>
-      </Route>
-      <Route path="/projects/:id">
-        <Project/>
       </Route>
       </Switch>
     </main>
@@ -39,4 +39,5 @@ export default App;
 //{ Route } is a component that allows us to define a certain path and then the react component which will be loaded when the path becomes active in the
 //<Route path="/projects"><Route/>
 
-//
+//Switch will prevent React Router to render multiple pages simultaneously,
+//rendering in fact just the specific route
