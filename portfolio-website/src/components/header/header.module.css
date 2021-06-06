@@ -1,9 +1,23 @@
 .header {
-    background-color: deeppink;
+    background-color: #5f0b76;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
 
 
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #d606d9;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #d606d9;
 }
