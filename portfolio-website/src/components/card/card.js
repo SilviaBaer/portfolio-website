@@ -10,7 +10,7 @@ function Card(props) {
         <div className={styles.caption}>
         <h3 className={styles.title}>{props.title}</h3>
         <p className={styles.what}>{props.what}</p>
-        <Link to={props.more}><p className={styles.more}>More!</p></Link>
+        <Link to={`/projects/${props.more}`}><p className={styles.more}>More!</p></Link>
         </div>
     </div>
     )
