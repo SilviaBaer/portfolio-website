@@ -17,9 +17,6 @@ function Cards() {
     return (
         <div className={styles.cardsContainer}>
             {projects.map(createCard)}
-            
-            
-
         </div>
     )
 }
