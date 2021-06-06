@@ -41,3 +41,7 @@ export default App;
 
 //Switch will prevent React Router to render multiple pages simultaneously,
 //rendering in fact just the specific route
+//when the server hits the line of code that contains a match
+//switch is going to make it stop immediately, ignoring whatever follows 
+//no matter how specific it is
+//That is why the position must be swapped!!
