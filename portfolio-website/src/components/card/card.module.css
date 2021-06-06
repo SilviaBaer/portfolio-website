@@ -32,11 +32,12 @@
 	margin-bottom: 10%;
   }
 
-  .try  {
+  .more  {
 	  background-color: hotpink;
 	  padding: 5% 5%;
+	  margin: 0 10% 0 40%;
 	  border-radius: 10%;
-	  width: 100%;
+	  width: 80;
 	  
   }
   
