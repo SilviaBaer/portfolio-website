@@ -1,4 +1,4 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import styles from './App.css';
 import Header from "./components/header/header"
 import Footer from "./components/footer/footer"
@@ -14,6 +14,12 @@ function App() {
     <Header/>
     <main>
       <Switch>
+        <Route path="/" exact>
+          <Redirect to="/welcome"/>
+        </Route>
+      <Route path="/welcome">
+        <Welcome/>
+      </Route>
       <Route path="/about">
         <About/>
       </Route>
@@ -22,9 +28,6 @@ function App() {
       </Route>
       <Route path="/projects/:id">
         <Project/>
-      </Route>
-      <Route path="/welcome">
-        <Welcome/>
       </Route>
       </Switch>
     </main>
@@ -52,3 +55,6 @@ export default App;
 //OPTION 2. USING EXACT PROP
 //using the exact prop will make React Router stop when only the EXACT match is found!
 //no need to swap positions
+
+//THE POWER OF EXACT! (#redirect)
+//exact in this case prevent an infinite loop!!
