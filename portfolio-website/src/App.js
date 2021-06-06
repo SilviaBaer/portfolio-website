@@ -6,6 +6,7 @@ import Welcome from "./pages/welcome"
 import About from "./pages/about"
 import Projects from "./pages/projects"
 import Project from "./pages/project"
+import NotFound from "./pages/notFound"
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
       </Route>
       <Route path="/projects/:id">
         <Project/>
+      </Route>
+      <Route path="*">
+        <NotFound/>
       </Route>
       </Switch>
     </main>
@@ -58,3 +62,7 @@ export default App;
 
 //THE POWER OF EXACT! (#redirect)
 //exact in this case prevent an infinite loop!!
+
+//* means all
+//if after all the provided routes there are no matches, 
+//every other route is going to render 404
