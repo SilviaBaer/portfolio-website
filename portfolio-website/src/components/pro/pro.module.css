@@ -1,6 +1,13 @@
 .pro {
-    padding: 0 5% 25% 5%;
+    margin: 0 25% 100% 25%;
+    padding: 5% 5% 5% 5%;
+    max-width: 50%;
     color: green;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 15px;
 
 }
 
@@ -12,4 +19,5 @@
         #ff008c 51%,
         #6a0b77 100%
       );;
+      border-radius: 5px; 
 }
