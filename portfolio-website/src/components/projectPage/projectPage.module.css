@@ -36,12 +36,12 @@
         min-width: 100%
     }
 
-.div {
+.infoBox {
     order: -1;
 }
 
 @media (min-width: 700px) {
-    .div {
+    .infoBox {
         width: 45%
     }
     

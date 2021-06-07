@@ -1,9 +1,30 @@
+.cardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    padding: 5% 10% 20% 10%;
+  }
+  @media (min-width: 600px) {
+    cardsContainer {
+      flex-wrap: nowrap;
+    }
+	card {
+		flex-basis: 25%;
+	  }
+
+	}
+
 .card {
-	min-width: 30%;
-	margin: 2%;
-	width: 100%;
-	flex-basis: content; 
-	background-color: rgba(78, 87, 87, 0.328);
+	
+	padding: 1rem;
+	border: 3px solid #ff00ea;
+	border-radius: 2%;
+	font-weight: bold; 
+	background-color: rgba(80, 50, 114, 0.328);
 }
 .card:hover {
 	background-color: black;
@@ -15,40 +36,43 @@
 	}
 }
 
-.caption {
-	padding: 1rem;
-	border: 3px solid #ff00ea;
-	border-radius: 2%;
-	font-weight: bold; 
-}
 .title {
-	color: white;
+	color: palevioletred
 }
+.imgContainer {
+    border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	border-bottom: solid 3px indigo;
+	width: 100%
+
+}
+@media (min-width: 600px)
+ {
+    /* .imgContainer {
+      width: 55%;
+      padding-top: 30px;
+    }  */
+
+	}
+    .img {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+		
+	object-fit: cover;
+    }
+
+/* .caption {
+	display: flex;
+} */
+
 
 .img {
 	border-top-left-radius: 5%;
 	border-top-right-radius: 5%;
-	border-bottom: solid 3px indigo;
-	max-width: 100%;
-	object-fit: cover;
-	
 }
   	
-  .cardsContainer {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  @media (min-width: 600px) {
-    cardsContainer {
-      flex-wrap: nowrap;
-    }
-	card {
-		flex-basis: 25%;
-	  }
-
-	}
+  
 
   .what {
 	margin-bottom: 10%;
@@ -72,4 +96,6 @@ background-color: black;
 border: solid 2px deeppink;
 color: deeppink
   }
+  
+
   

@@ -4,7 +4,7 @@ export default function ProjectPage(props) {
     return (
         <div className={styles.main} >
             
-            <div className={styles.div}>
+            <div className={styles.infoBox}>
             <h3 className={styles.title}>{props.title}</h3>
             <p className={styles.deep}>{props.deep}</p>
             <div className={styles.buttons}>
