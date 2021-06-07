@@ -1,43 +1,75 @@
 .card {
-    width: 29%;
+	min-width: 30%;
 	margin: 2%;
+	width: 100%;
+	flex-basis: content; 
+	background-color: rgba(78, 87, 87, 0.328);
+}
+.card:hover {
+	background-color: black;
 }
 
-.img {
-	border-top-left-radius: 20%;
-	max-width: 100%;
-	object-fit: cover;
+@media (min-width: 600px) {
+	.card {
+	  width: 25%;
+	}
 }
 
 .caption {
-	background-color: lemonchiffon;
-	padding: 10% 0.5% 10% 0.5%;
-	margin-top: -5%;
-	text-align: center;
-	color: black;
+	padding: 1rem;
+	border: 3px solid #ff00ea;
+	border-radius: 2%;
+	font-weight: bold; 
+}
+.title {
+	color: white;
 }
 
-.cardsContainer {
+.img {
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	border-bottom: solid 3px indigo;
+	max-width: 100%;
+	object-fit: cover;
+	
+}
+  	
+  .cardsContainer {
 
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: stretch;
-	align-content: space-around;
-	margin: 5% 10% 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
+  @media (min-width: 600px) {
+    cardsContainer {
+      flex-wrap: nowrap;
+    }
+	card {
+		flex-basis: 25%;
+	  }
+
+	}
 
   .what {
 	margin-bottom: 10%;
+	min-height: 6rem;
+	max-width: 80%;
+	color:limegreen
   }
 
   .more  {
-	  background-color: hotpink;
+	  background-color: deeppink;
+	  color: black;
+	  border: solid 2px deeppink;
 	  padding: 5% 5%;
-	  margin: 0 10% 0 40%;
+	  margin: 2rem 5% 2% 30%;
 	  border-radius: 10%;
-	  width: 80;
-	  
+	  min-width: 50%
+  }
+
+  .more:hover {
+background-color: black;
+border: solid 2px deeppink;
+color: deeppink
   }
   
