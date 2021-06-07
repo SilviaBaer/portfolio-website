@@ -1,3 +1,41 @@
 .wrapper {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: baseline;
     background-color: #120a2f;
 }
+
+@media (min-width: 600px) {
+    .wrapper {
+      flex-wrap: nowrap;
+    }
+
+}
+
+.name {
+}
+@media (min-width: 600px)
+ {
+    .name {
+      padding-top: 30px;
+    }
+
+	}
+
+    .pro {
+margin-top: 50%;
+    }
+@media (min-width: 700px) {
+    .pro {
+        min-width: 45%
+    }
+    
+}
+
+
+
+

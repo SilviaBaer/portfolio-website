@@ -5,8 +5,8 @@ import styles from "./welcome.module.css"
 export default function Welcome() {
     return (
         <div className={styles.wrapper}>
-            <Name/>
-            <Pro/>
+            <div className={styles.name}><Name/></div>
+            <div className={styles.pro}><Pro/></div>
         </div>
     )
 } 
