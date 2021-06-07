@@ -1,12 +1,14 @@
 const projects = [
     {
         id: 1,
-        img: "bakend.png", 
+        img: "/bakend.png",
+        imgFull: "/bakend.png",
         title:"Bakend",
         description:"Converter App for Cake Ingredients", 
         page:"bakend",
-        deep: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas diam. Proin libero nunc consequat interdum. Mi bibendum neque egestas congue quisque. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. In metus vulputate eu scelerisque. Malesuada fames ac turpis egestas sed tempus urna et. Sit amet nisl suscipit adipiscing bibendum est ultricies. Sit amet facilisis magna etiam tempor orci. Convallis tellus id interdum velit laoreet. Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Ut porttitor leo a diam. At elementum eu facilisis sed odio morbi quis commodo. Elementum nibh tellus molestie nunc non blandit massa. Aenean et tortor at risus viverra adipiscing at. Sodales ut eu sem integer vitae justo eget magna fermentum",
-        deploy: "https://bakend-app.herokuapp.com/"
+        deep: "Just run out of milk? No panic, with Bakend you can find a substitute for your missing ingredient, no need to run back to the shop. The app will do the maths for you!",
+        deploy: "https://bakend-app.herokuapp.com/",
+        github: "https://github.com/SilviaBarcellini/bakend"
     },
     {
         id: 2,

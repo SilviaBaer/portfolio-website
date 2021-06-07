@@ -14,12 +14,14 @@ if (!project) {
 
     return (
         <section>
-            <h1 className={styles.title}>Project in Details</h1>
-            <p className={styles.p}>{params.id}</p>
             <div className={styles.projectCard}>
-                <ProjectPage title={project.title} deep={project.deep} />
+                <ProjectPage title={project.title} imgFull={project.imgFull} deep={project.deep} deploy={project.deploy} github={project.github} />
             </div>
         </section>
         
     )
 }
+/* 
+<h1 className={styles.title}>Project in Details</h1>
+            <p className={styles.p}>{params.id}</p>
+             */
