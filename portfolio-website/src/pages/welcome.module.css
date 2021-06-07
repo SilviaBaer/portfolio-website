@@ -1,11 +1,9 @@
 .wrapper {
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-around;
-    align-items: baseline;
     background-color: #120a2f;
 }
 
@@ -27,11 +25,11 @@
 	}
 
     .pro {
-margin-top: 50%;
+margin-top: 5%;
     }
 @media (min-width: 700px) {
     .pro {
-        min-width: 45%
+        min-width: 30%
     }
     
 }
