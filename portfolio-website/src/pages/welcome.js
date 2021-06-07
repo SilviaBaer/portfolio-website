@@ -1,10 +1,11 @@
 import Name from "../components/name/name"
 import Pro from "../components/pro/pro"
 import { Route } from "react-router-dom"
+import styles from "./welcome.module.css"
 
 export default function Welcome() {
     return (
-        <div>
+        <div >
             <Name/>
             <Pro/>
             <Route>
