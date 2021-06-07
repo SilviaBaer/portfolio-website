@@ -19,7 +19,7 @@ const projects = [
     {
         id: 3,
         img: "https://images.unsplash.com/photo-1576489922094-2cfe89fb1733?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlcnJ5JTIwYmxvc3NvbXxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" ,
-        title: "Newsletter",
+        title: "News",
         description: "Form for Newsletter Subscription",
         page: "newsletter",
         deploy:""
