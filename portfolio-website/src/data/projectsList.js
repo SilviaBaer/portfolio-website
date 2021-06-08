@@ -11,6 +11,8 @@ const projects = [
         deploy: "https://bakend-app.herokuapp.com/",
         github: "https://github.com/SilviaBarcellini/bakend"
     },
+
+    //WORK IN PROGRESS
     /* {
         id: 2,
         img: "https://images.unsplash.com/photo-1618422689173-3dbcdeb82fa7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmVycmllc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
