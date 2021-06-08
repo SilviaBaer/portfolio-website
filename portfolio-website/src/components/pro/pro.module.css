@@ -32,6 +32,41 @@
 }
 
 .span:hover {
-    background-position: right center;
-    padding: 2%; 
+  background-image:     linear-gradient(
+    to right, 
+    #E7484F,
+    #F68B1D, 
+    #FCED00,
+    #009E4F,
+    #00AAC3,
+    #732982
+  );
+animation:slidebg 2s linear infinite;
+padding: 2%
+}
+
+.owl {
+  transition: 0.5s;
+}
+.owl:hover {
+  font-size: 200%;
+}
+
+.de {
+  color: #ffe600;
+  transition: 0.5s;
+}
+
+.de:hover {
+  color: black;
+  background-color: red;
+  padding: 2%;
+  border-radius: 10%;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
 }
