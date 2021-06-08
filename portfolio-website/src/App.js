@@ -1,22 +1,25 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import styles from './App.css';
 import Header from "./components/header/header"
 import Footer from "./components/footer/footer"
 import Welcome from "./pages/welcome"
-import About from "./pages/about"
+//import About from "./pages/about"
 //import Projects from "./pages/projects"
-import Project from "./pages/project"
-import NotFound from "./pages/notFound"
-//import 'bootstrap/dist/css/bootstrap.min.css';
+//import Project from "./pages/project"
+//import NotFound from "./pages/notFound"
 
 const Projects = React.lazy(() => import("./pages/projects"));
+const About = React.lazy(() => import("./pages/about"));
+const NotFound = React.lazy(() => import("./pages/notFound"));
+const Project = React.lazy(() => import("./pages/project"));
 
 function App() {
   return (
     <div className="App">
+      <Suspense fallback={<p className="centered">Loading ...</p>}>
+      <main>
     <Header/>
-    <main>
       <Switch>
         <Route path="/" exact>
           <Redirect to="/welcome"/>
@@ -37,8 +40,12 @@ function App() {
         <NotFound/>
       </Route>
       </Switch>
+      <Footer/>
     </main>
-    <Footer/>
+      </Suspense>
+      
+    
+    
     </div>
   );
 }
