@@ -7,10 +7,10 @@ function Pro() {
             ... a <span className={styles.span}>pro</span>grammer in <span className={styles.span}>pro</span>gress ...
             </h2>
             <h2 className={styles.pro}>
-                night owl coffee lover
+                coffee <span className={styles.owl}>☕</span> and <span className={styles.owl}>🍩</span> donuts
             </h2>
             <h2 className={styles.pro}>
-                based in Germany 
+                based in <span className={styles.de}>Germany</span> ⚓
             </h2>
         </div>
         
