@@ -1,0 +1,114 @@
+.main {
+    background-color: #120a2f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    padding: 5% 10% 0 10%
+}
+
+@media (min-width: 600px) {
+    .main {
+      flex-wrap: nowrap;
+    }
+
+}
+.imgContainer {
+  
+	border-bottom: solid 3px indigo;
+    padding: 5%
+}
+@media (min-width: 600px)
+ {
+    .imgContainer {
+      width: 55%;
+      padding-top: 30px;
+    }
+
+	}
+    .img {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        border-radius: 10%;
+    }
+
+.infoBox {
+    order: -1;
+}
+
+@media (min-width: 700px) {
+    .infoBox {
+        width: 45%
+    }
+    
+}
+
+.title {
+    display: block; 
+    color: #ff99ee;
+    font-size: 200%;
+}
+.deep {
+    color:#99ffd5;
+    text-align: left;
+    font-size: 110%;
+    background-color: #8c70f14d;
+    padding: 5%;
+    margin: 15% 0 5% 0;
+    border-top: solid 2px lightpink;
+    border-radius: 1%;
+} 
+
+.span {
+    margin-right: 5%;
+}
+
+.skills {
+    color: #99ffd5;
+    padding: 5%;
+    letter-spacing: 0.5rem;
+    line-height: 2.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+    
+}
+
+.repo {
+    background-color: black;
+    border: solid 3px deeppink;
+    color: deeppink;
+    padding: 2%;
+    font-weight: bold;
+    margin-top: 7%;
+}
+.repo:hover {
+    background-color: deeppink;
+    border: solid 3px deeppink;
+    color: black;
+    font-weight: bolder;
+}
+
+.deploy {
+    background-color: black;
+    border: solid 3px deeppink;
+    color: deeppink;
+    padding: 2%;
+    font-weight: bolder;
+}
+.deploy:hover {
+    background-color: deeppink;
+    border: solid 3px deeppink;
+    color: black;
+    font-weight: bolder;
+}

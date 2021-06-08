@@ -2,7 +2,6 @@
 //in order to stress the fact that it is working with router!
 import styles from "../pages/projects.module.css"
 import Cards from "../components/card/cards"//<Cards/>
-import {Link} from "react-router-dom"
 
 export default function Projects() {
     return (
@@ -12,8 +11,3 @@ export default function Projects() {
         </div>
     )
 }
-
-
-{/* <Link to="/projects/p1"><li className={styles.item}>A book</li></Link>
-<Link to="/projects/p2"><li className={styles.item}>An Apple</li></Link>
-<Link to="/projects/p3"><li className={styles.item}>A Cup</li></Link> */}

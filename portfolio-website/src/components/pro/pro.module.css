@@ -1,15 +1,37 @@
+.container {
+  padding: 35% 0 200px 0;
+    display: flex;
+    flex-direction: column; 
+}
+
 .pro {
-    padding: 0 5% 25% 5%;
+    margin: 0 5% 2% 5%;
+    padding: 5% 5% 5% 5%;
+    max-width: 90%;
     color: green;
+    background-color: black;
+    text-align: justify;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 20px; 
+   border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 15px; 
 
 }
 
 .span {
     color: black;
+    transition: 0.5s;
+  background-size: 150% auto;
     background-image: linear-gradient(
         to right,
         #ff5100 0%,
         #ff008c 51%,
         #6a0b77 100%
-      );;
+      );
+      border-radius: 5px; 
+}
+
+.span:hover {
+    background-position: right center;
+    padding: 2%; 
 }
