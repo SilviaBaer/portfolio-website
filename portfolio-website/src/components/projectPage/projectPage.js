@@ -7,6 +7,7 @@ export default function ProjectPage(props) {
             <div className={styles.infoBox}>
             <h3 className={styles.title}>{props.title}</h3>
             <p className={styles.deep}>{props.deep}</p>
+            <p className={styles.skills}>{props.skills}</p>
             <div className={styles.buttons}>
             <a href={props.deploy} className={styles.deploy}>Try it!</a>
             <a href={props.github} className={styles.repo}>Github repo</a>

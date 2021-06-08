@@ -6,7 +6,8 @@ const projects = [
         title:"Bakend",
         description:"Converter App for Cake Ingredients", 
         page:"bakend",
-        deep: "Just run out of milk? No panic, with Bakend you can find a substitute for your missing ingredient, no need to run back to the shop. The app will do the maths for you!",
+        skills: "React - Nextjs - TypeScript - CSS - Storybook - MongoDB - API",
+        deep: "Just run out of milk? Don't panic, with Bakend you can find a substitute for your missing ingredient, no need to run back to the shop. The app will do the maths for you!",
         deploy: "https://bakend-app.herokuapp.com/",
         github: "https://github.com/SilviaBarcellini/bakend"
     },

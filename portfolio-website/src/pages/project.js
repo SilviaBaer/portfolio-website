@@ -15,7 +15,7 @@ if (!project) {
     return (
         <section>
             <div className={styles.projectCard}>
-                <ProjectPage title={project.title} imgFull={project.imgFull} deep={project.deep} deploy={project.deploy} github={project.github} />
+                <ProjectPage title={project.title} imgFull={project.imgFull} deep={project.deep} skills={project.skills} deploy={project.deploy} github={project.github} />
             </div>
         </section>
         
