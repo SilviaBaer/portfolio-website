@@ -1,13 +1,16 @@
+import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import styles from './App.css';
 import Header from "./components/header/header"
 import Footer from "./components/footer/footer"
 import Welcome from "./pages/welcome"
 import About from "./pages/about"
-import Projects from "./pages/projects"
+//import Projects from "./pages/projects"
 import Project from "./pages/project"
 import NotFound from "./pages/notFound"
 //import 'bootstrap/dist/css/bootstrap.min.css';
+
+const Projects = React.lazy(() => import("./pages/projects"));
 
 function App() {
   return (
