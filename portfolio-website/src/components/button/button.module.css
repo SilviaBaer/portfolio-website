@@ -1,8 +1,10 @@
 .btn {
     padding: 5%;
     border-radius: 10%;
-    font-weight: bolder;
+    font-weight: bold;
     max-width: 30%;
+    
+    font-family: 'Montserrat', sans-serif;
 } 
 .btn {
     color: black;
@@ -22,7 +24,7 @@
 .btn:hover {
     color: black;
       border: none;
-      font-size: 150%;
+      font-size: 120%;
       font-weight: bolder;
   background-image:     linear-gradient(
     to right, 
@@ -34,7 +36,7 @@
     #732982
   );
 animation:slidebg 1.5s linear infinite;
-padding: 7%
+
 }
 
 @keyframes slidebg {

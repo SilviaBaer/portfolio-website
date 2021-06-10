@@ -1,12 +1,13 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-items: flex-end;
-    background-color: deepskyblue;
+    background-color: rgba(135, 207, 235, 0.61);
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
 }
 
 .copy {
     color: white;
     font-weight: bold;
     align-self: center;
+    margin-bottom: 0;
+    padding: 2.5rem;
 }

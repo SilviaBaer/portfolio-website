@@ -8,13 +8,14 @@
     margin: 0 5% 2% 5%;
     padding: 5% 5% 5% 5%;
     max-width: 90%;
-    color: green;
+    color: limegreen;
     background-color: black;
     text-align: justify;
     border-top-right-radius: 10px;
     border-top-left-radius: 20px; 
    border-bottom-right-radius: 25px;
     border-bottom-left-radius: 15px; 
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -29,6 +30,7 @@
         #6a0b77 100%
       );
       border-radius: 5px; 
+      font-weight: bolder;
 }
 
 .span:hover {
