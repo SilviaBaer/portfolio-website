@@ -1,7 +1,11 @@
 .title {
     padding-top: 10%;
+    margin-right: 5%;
     color: lemonchiffon;
     font-family: "Poppins", sans-serif;
+    border-bottom: solid 1px lemonchiffon;
+    text-align: left;
+
 }
 
 
@@ -32,8 +36,11 @@ imgContainer {
  {
       
     .imgContainer {
+
+    max-height: 90%;
       width: 55%;
-      padding-top: 30px;
+      margin-top: 3rem;
+      padding: 10%;
     }
     .imgContainer:hover  {
         opacity: 1;
@@ -44,6 +51,7 @@ imgContainer {
         display: block;
         width: 100%;
         min-width: 100%;
+        max-height: 100%;
         border-radius: 10%;
         -webkit-filter: grayscale(1);
         filter: grayscale(1);
@@ -70,3 +78,28 @@ imgContainer {
     }
     
 }
+
+imgRoom {
+    padding: 5%
+}
+@media (min-width: 600px)
+ {
+      
+    .imgRoom {
+      width: 55%;
+      padding-top: 30px;
+     
+    }
+    .imgRoom:hover  {
+        opacity: 1;
+    }
+
+	}
+    .hobby {
+        margin: 5px;
+    }
+
+    .skills {
+        letter-spacing: 0.5rem;
+        color: lightgreen;
+    }
