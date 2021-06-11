@@ -8,7 +8,7 @@ export default function About() {
         
           <main className= {styles.main}>
             <div className={styles.imgContainer}>
-            <img src="/meme.png" className={styles.img} alt=""/>
+            <img src="/me.png" className={styles.img} alt=""/>
             </div>
 
             <div className={styles.text}>
@@ -21,20 +21,28 @@ export default function About() {
             I jumped in cold water when I decided to attend the Web Development Bootcamp at 
             Neue Fische in Hamburg, upgrading from passionate about to pro</p>
             <p className={styles.p}>Still a beginner, I have started swimming, making challenges and building real life projects</p>
-            <p className={styles.p}>here are some technologies I have been focusing on recently</p>
-            <p className={styles.p}>here are some technologies I have been focusing on recently</p>
             <h4 className={styles.p}>
                 Scary? Yes! But so far totally enjoying! 🎉
             </h4>
-            <h2 className={styles.title}>Hiring?</h2>
-            <h4 className={styles.p}>
-                Let's have a chat!
+            <h2 className={styles.title}>Technologies Focus</h2>
+            <h4 className={styles.skills}>
+                React JavaScript Nextjs CSS3 
             </h4>
 
             <h2 className={styles.title}>When I am not coding ...</h2>
             <h4 className={styles.p}>
-            🧘 🧁 ☕ 🍣 🧶 🎧
             </h4>
+            <div classname={styles.imgRoom}>
+                <img className={styles.hobby} src="/lotus.png" alt="yoga"/>
+                <img className={styles.hobby} src="/karate.png" alt="karate"/>
+                <img className={styles.hobby} src="/bicycle.png" alt="bike"/>
+                <img className={styles.hobby} src="/cupcake.png" alt="baking"/>
+                <img className={styles.hobby} src="/tea.png" alt="tea"/>
+                <img className={styles.hobby} src="/sushi.png" alt="sushi"/>
+                <img className={styles.hobby} src="/translation.png" alt="languages"/>
+                <img className={styles.hobby} src="/headphones.png" alt="podcast"/>
+                <img className={styles.hobby} src="/knitting.png" alt="knitting"/>
+            </div>
             </div>
             </main>
             
