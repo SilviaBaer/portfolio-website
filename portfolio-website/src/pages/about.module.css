@@ -4,7 +4,69 @@
     font-family: "Poppins", sans-serif;
 }
 
+
+.main {
+    background-color: #120a2f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    padding: 5% 10% 0 10%
+}
+
+@media (min-width: 600px) {
+    .main {
+      flex-wrap: nowrap;
+    }
+
+}
+
+imgContainer {
+  
+    padding: 5%
+}
+@media (min-width: 600px)
+ {
+      
+    .imgContainer {
+      width: 55%;
+      padding-top: 30px;
+    }
+    .imgContainer:hover  {
+        opacity: 1;
+    }
+
+	}
+    .img {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        border-radius: 10%;
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+    }
+    .img:hover {
+        -webkit-filter: none;
+        filter: none;
+    }
+
 .p {
     color:lightgreen;
     font-family: 'Montserrat', sans-serif;
+    margin: 5% 10% 5% 10%;
+    text-align: justify;
+}
+
+.text {
+    order: -1;
+}
+
+@media (min-width: 700px) {
+    .text {
+        width: 45%;
+    }
+    
 }
