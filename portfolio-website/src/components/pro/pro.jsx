@@ -4,7 +4,7 @@ function Pro() {
     return (
         <div className={styles.container}>
             <h2 className={styles.pro}>
-            ... a <span className={styles.span}>pro</span>grammer in <span className={styles.span}>pro</span>gress ...
+            a <span className={styles.span}>pro</span>grammer in <span className={styles.span}>pro</span>gress
             </h2>
             <h2 className={styles.pro}>
                 coffee <span className={styles.owl}>☕</span> and <span className={styles.owl}>🍩</span> donuts
