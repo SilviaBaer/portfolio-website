@@ -21,7 +21,7 @@ const projects = [
         page: "euro",
         skills: "React - JavaScript - CSS - API",
         deep: "Dedicated to any backpacker that needs a quick conversion TO and FROM euros. ( 🚧 due to the unavailability of the API, the application is not available live. Work in Progress ",
-        deploy: "https://github.com/SilviaBarcellini/teaspoons",
+        deploy: "https://teaspoons.vercel.app/",
         github: "https://github.com/SilviaBarcellini/teaspoons"
     }
      //WORK IN PROGRESS
