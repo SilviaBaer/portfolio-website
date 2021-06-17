@@ -12,15 +12,20 @@ const projects = [
         github: "https://github.com/SilviaBarcellini/bakend"
     },
 
-    //WORK IN PROGRESS
-    /* {
+    {
         id: 2,
-        img: "https://images.unsplash.com/photo-1618422689173-3dbcdeb82fa7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmVycmllc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        title: "Keep Me",
-        description: "Keeper App",
-        page: "keep-me",
-        deploy: ""
-    },
+        img: "/eu-screen.png",
+        imgFull: "/eu-screen.png",
+        title: "Euro Converter",
+        description: "Euro Converter App",
+        page: "euro",
+        skills: "React - JavaScript - CSS - API",
+        deep: "Dedicated to any backpacker that needs a quick conversion TO and FROM euros. ( 🚧 due to the unavailability of the API, the application is not available live. Work in Progress ",
+        deploy: "https://teaspoons.vercel.app/",
+        github: "https://github.com/SilviaBarcellini/teaspoons"
+    }
+     //WORK IN PROGRESS
+    /*
     {
         id: 3,
         img: "https://images.unsplash.com/photo-1576489922094-2cfe89fb1733?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlcnJ5JTIwYmxvc3NvbXxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" ,
