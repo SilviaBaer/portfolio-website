@@ -50,6 +50,8 @@ function App() {
 
 export default App;
 
+
+//trying if it works!
 //conditionally rendering components with react router
 //{ Route } is a component that allows us to define a certain path and then the react component which will be loaded when the path becomes active in the
 //<Route path="/projects"><Route/>
