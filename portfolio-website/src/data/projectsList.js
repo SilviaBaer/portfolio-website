@@ -23,6 +23,18 @@ const projects = [
         deep: "Dedicated to any backpacker that needs a quick conversion TO and FROM euros. ( 🚧 due to the unavailability of the API, the application is not available live. Work in Progress!) ",
         deploy: "https://teaspoons.vercel.app/",
         github: "https://github.com/SilviaBarcellini/teaspoons"
+    },
+    {
+        id: 3,
+        img: "/web-programming.png",
+        imgFull: "/helmet.png",
+        title: "Weather App",
+        description: "What is the weather like in ..., right now?",
+        page: "weather",
+        skills: "JavaScript - API - Node.js - Express - Body Parser",
+        deep: "Is it raining in London? Is it sunny in Philadelphia? How is the weather like in Melbourne? Have this info Live from the Internet",
+        deploy: "https://weather-six-blue.vercel.app/",
+        github: "https://github.com/SilviaBarcellini/weather"
     }
      //WORK IN PROGRESS
     /*
