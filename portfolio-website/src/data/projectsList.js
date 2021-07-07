@@ -1,8 +1,8 @@
 const projects = [
     {
         id: 1,
-        img: "/bakend.png",
-        imgFull: "/bakend.png",
+        img: "/screen-bakend.png",
+        imgFull: "/screen-bakend.png",
         title:"Bakend",
         description:"Converter App for Cake Ingredients", 
         page:"bakend",
@@ -14,8 +14,8 @@ const projects = [
 
     {
         id: 2,
-        img: "/eu-screen.png",
-        imgFull: "/eu-screen.png",
+        img: "/screen-eu.png",
+        imgFull: "/screen-eu.png",
         title: "Euro Converter",
         description: "Euro Converter App",
         page: "euro",
@@ -23,6 +23,18 @@ const projects = [
         deep: "Dedicated to any backpacker that needs a quick conversion TO and FROM euros. ( 🚧 due to the unavailability of the API, the application is not available live. Work in Progress!) ",
         deploy: "https://teaspoons.vercel.app/",
         github: "https://github.com/SilviaBarcellini/teaspoons"
+    },
+    {
+        id: 3,
+        img: "/screen-calc.png",
+        imgFull: "/screen-calc.png",
+        title: "Unconventional Calculator",
+        description: "Basic Calculator App",
+        page: "un-calculator",
+        skills: "JavaScript - CSS - HTML",
+        deep: "Basic Calculator App developed with Vanilla JavaScript. Careful though 👀, it is simple but not easy! It gets tricky with pushing buttons! First type the amount AND then press the operator! NO need to have a = sign 😄 Proud of this little one though, since these were my first steps into JavaScript 😊. This was my mini-project, developed while learning the fundamentals of Vanilla JavaScript during an Online Bootcamp.",
+        deploy: "https://vanilla-calculator-mu.vercel.app/",
+        github: "https://github.com/SilviaBaer/vanilla-calculator"
     }
      //WORK IN PROGRESS
     /*
